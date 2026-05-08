@@ -174,8 +174,8 @@ def plot_lines(list_to_plot, list_name, axis_label, folder, title, x_axis = None
     if show:
         plt.show()
     else:
-        plt.savefig('../plot/'+folder+title+'.png')
-        plt.savefig('../plot/'+folder+title+'.pdf')
+        plt.savefig('plot/'+folder+title+'.png')
+        plt.savefig('plot/'+folder+title+'.pdf')
 
 color_list = ["green", "red", "blue", "orange", "purple", "navy", "black", "skyblue", "darksalmon"]
 #color_list_presentation = ["green", "red", "navy", "black"]
